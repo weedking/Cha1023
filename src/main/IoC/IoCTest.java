@@ -14,7 +14,9 @@ public class IoCTest {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
 //        User user = ctx.getBean(User.class);
 //        log.info(String.valueOf(user.getNote()));
-        Person person = ctx.getBean(BussinessPerson.class);
-        person.service();
+
+//        Person person = ctx.getBean(BussinessPerson.class);
+//        person.service();
+        ctx.close();
     }
 }

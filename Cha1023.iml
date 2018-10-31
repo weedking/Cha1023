@@ -10,6 +10,7 @@
           <root url="file://$MODULE_DIR$/src/main/config" />
           <root url="file://$MODULE_DIR$/src/main/IoC" />
           <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/life" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
       </configuration>
@@ -27,6 +28,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/config" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/IoC" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/life" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -91,5 +93,6 @@
     <orderEntry type="library" name="Maven: org.apache.commons:commons-dbcp2:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.5.0" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.45" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:2.0.0.RELEASE" level="project" />
   </component>
 </module>

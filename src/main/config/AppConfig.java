@@ -11,7 +11,7 @@ import javax.xml.ws.Service;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan(basePackages = {"pojo.*"},
+@ComponentScan(basePackages = {"pojo.*"},lazyInit = true,
         excludeFilters = {@ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE,value = UserService.class)})
 public class AppConfig {
     @Bean
@@ -29,7 +29,7 @@ public class AppConfig {
         return bussinessPerson;
     }
 
-    @Bean
+    @Bean(name = "mydog")
     public Dog initDog(){
         Dog dog = new Dog();
         return dog;
